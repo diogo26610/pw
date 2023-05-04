@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+}
+
+header {
+  background-color: #e8e8e8b7;
+  color: #000000;
+  padding: 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 34px;
+}
+
+main {
+  height: calc(100vh - 140px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #e8e8e8b7;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.button1:hover {
+  box-shadow: 0 0 50px 10px #ffffff;
+  transform: scale(1.1);
+}
+
+.button2:hover {
+  box-shadow: 0 0 50px 10px #8b7b00;
+  transform: scale(1.1);
+}
+
+.button3:hover {
+  box-shadow: 0 0 50px 10px #b52b2b;
+  transform: scale(1.1);
+}
+
+.button1 {
+  background-image: url(/Project/sports/sports_icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 175px;
+  height: 200px;
+  border: 3px solid black;
+  border-radius: 5%;
+}
+
+.button2 {
+  background-image: url(/Project/games/game_icon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 175px;
+  height: 200px;
+  border: 3px solid black;
+  border-radius: 5%;
+}
+
+.button3 {
+  background-image: url(/Project/anime/button_anime.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 175px;
+  height: 200px;
+  border: 3px solid black;
+  border-radius: 5%;
+}
